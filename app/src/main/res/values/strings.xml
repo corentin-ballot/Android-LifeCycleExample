@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ExampleLifeCycle</string>
+    <string name="welcome">Hello ! </string>
+    <string name="homemessage">ExampleLifeCycle</string>
+    <string name="btnhometoone">To one</string>
+    <string name="btnhometotwo">To two</string>
+    <string name="btnhometothree">To three</string>
+    <string name="btnexit">Exit</string>
+    <string name="title_activity_one">ActivityOne</string>
+</resources>

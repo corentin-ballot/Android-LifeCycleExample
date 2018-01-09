@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ballot.corentin.examplelifecycle.MainActivity">
+
+    <TextView android:id="@+id/welcome" android:text="@string/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/homemessage" android:text="@string/homemessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/hometoone" android:text="@string/btnhometoone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doOne" />
+
+    <Button android:id="@+id/hometotwo" android:text="@string/btnhometotwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doTwo" />
+
+    <Button android:id="@+id/hometothree" android:text="@string/btnhometothree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doThree" />
+
+    <Button android:id="@+id/homeexit" android:text="@string/btnexit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="exit" />
+
+</LinearLayout>
